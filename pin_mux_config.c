@@ -61,14 +61,14 @@ void PinMuxConfig(void)
     PinModeSet(PIN_02, PIN_MODE_0);
     PinModeSet(PIN_03, PIN_MODE_0);
     PinModeSet(PIN_04, PIN_MODE_0);
-//    PinModeSet(PIN_06, PIN_MODE_0);
+    PinModeSet(PIN_06, PIN_MODE_0);
     PinModeSet(PIN_15, PIN_MODE_0);
-    PinModeSet(PIN_18, PIN_MODE_0);
+//    PinModeSet(PIN_18, PIN_MODE_0);
     PinModeSet(PIN_21, PIN_MODE_0);
     PinModeSet(PIN_45, PIN_MODE_0);
     PinModeSet(PIN_50, PIN_MODE_0);
     PinModeSet(PIN_52, PIN_MODE_0);
-    PinModeSet(PIN_53, PIN_MODE_0);
+//    PinModeSet(PIN_53, PIN_MODE_0);
     PinModeSet(PIN_60, PIN_MODE_0);
     PinModeSet(PIN_62, PIN_MODE_0);
     PinModeSet(PIN_63, PIN_MODE_0);
@@ -112,11 +112,6 @@ void PinMuxConfig(void)
     // Configure PIN_05 for SPI0 GSPI_CLK
     //
     PinTypeSPI(PIN_05, PIN_MODE_7);
-
-    //
-    // Configure PIN_06 for SPI0 GSPI_MISO
-    //
-    PinTypeSPI(PIN_06, PIN_MODE_7);
 
     //
     // Configure PIN_07 for SPI0 GSPI_MOSI
