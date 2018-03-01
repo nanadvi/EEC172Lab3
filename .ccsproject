@@ -9,5 +9,5 @@
 	<rts value="libc.a"/>
 	<templateProperties value="id=com.ti.common.project.core.emptyProjectTemplate,"/>
 	<isTargetManual value="true"/>
-	<origin value="C:/Users/Nadvi-PC/Documents/Lab 3/int_sw/int_sw"/>
+	<origin value="C:/Users/Nadvi-PC/Desktop/EEC172Lab3"/>
 </projectOptions>
